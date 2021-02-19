@@ -1,0 +1,9 @@
+body,html{font-size: 18px}
+		p {color: #19A74D}
+		p.yellow {color:#D5DE20}
+		h1,h2 {font-size:30px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
+		h2 {color:#2E2DDA}
+		a {text-decoration:  none;
+			color: #19A74D}
+		}
+		a:hover{text-decoration: underline;}
