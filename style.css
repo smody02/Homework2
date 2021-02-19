@@ -1,6 +1,6 @@
 body,html{font-size: 18px}
 
-	#top {background-color: #b5c9d2;  background-size:cover; height:15%; width:100%; padding-top:35px; padding-left:35px; box-sizing:border-box; text-align:left; font-size:40px; margin-bottom:0px; position:set; color:#483c35;}
+	#top {background-color: #b5c9d2;  background-size:cover; height:15%; width:100%; padding-top:35px; padding-left:35px; box-sizing:border-box; text-align:left; font-size:40px; margin:0px; position:set; color:#483c35;}
 
 	#photoarea { background-color: #483c35;  background-size:cover; height:40%; width:100%; padding-top:10px; box-sizing:border-box; text-align:center; font-size:40px; margin-bottom:0px; position:set; color:#483c35; }
 
