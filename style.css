@@ -1,48 +1,126 @@
 body,html{font-size: 18px}
 
-	#top {background-color: #b5c9d2;  background-size:cover; height:15%; width:100%; padding-top:35px; padding-left:35px; box-sizing:border-box; text-align:left; font-size:40px; margin:0px; position:set; color:#483c35;}
+    #top {
+        background-color: #b5c9d2;
+        background-size:cover; height:15%;
+        width:100%; padding-top:20px;
+        padding-bottom: 20px;
+        padding-left:35px;
+        box-sizing:border-box;
+        text-align:left;
+        font-size:5vw; margin:0px;
+        position:set; color:#483c35;
+        }
+    
+    #top a {
+        font-size:4vw;
+        float: right;
+        padding-top: 8px;
+        padding-right: 30px;
+        }
 
-	#photoarea { background-color: #483c35;  background-size:cover; height:40%; width:100%; padding-top:10px; box-sizing:border-box; text-align:center; font-size:40px; margin:0px; position:set; color:#483c35; }
+        div.gallery {
+          background-color: #fff
+        }
 
-	.photo{align=center}
-	.left-col {background-color:#b5c9d2; width:50%; display:inline-block; text-align:center; padding-top:5%; color:#483c35; font-size: 24px; padding-bottom:5%; box-sizing:border-box; position:top; margin-bottom:50px; margin-top:50px;}
+        div.gallery:hover {
+        }
 
-	.right-col {background-color:#b5c9d2; width: 49.5%; display:inline-block; text-align:center; padding-top:5%; color:#483c35; font-size: 24px; padding-bottom:5%; box-sizing:border-box; position:top; margin-bottom:50px; margin-top:50px;}
+        div.gallery img {
+          width: 100%;
+            overflow: hidden;
+            object-fit: contain;
+            align: top;
+        }
 
-	.text{
-		font-size: 18px; 
-		padding: 70px 0;
-		}
-	.text-title{
-		font-size: 18px; 
-		text-align:left; 
-		box-sizing:border-box;  
-		margin-left:10px;
-		}
-	.text-paragraph {
-		font-size: 16px; 
-		text-align:left; 
-		box-sizing:border-box; 
-		margin-left:5px; 
-		margin-top:5px; 
-		}
- 
-		a {text-decoration:  none;
-			color: #ED7117}
-		}
-		a:hover{text-decoration: underline;}
+        * {
+          box-sizing: border-box;
+        }
+
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        a{
+            text-decoration: none;
+            color: #ED7117;
+        }
+        a:hover{
+            text-decoration: none;
+            
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; / Should be removed. Only for demonstration /
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
 
 
+        .text-title{
+            font-size: 24px;
+            text-align:center;
+            box-sizing:border-box;
+            margin-top:10px;
+            color: #483c35;
+            font-weight: bold;
+            }
 
+        .review-name{
+            font-size: 20px;
+            text-align:left;
+            box-sizing:border-box;
+            margin-top:20px;
+            margin-left:10px;
+            color: #483c35;
+            }
 
-
-.column {
-  float: left;
-  width: 48%;
-  padding: 10px;
-text-align:center;
-padding-top:2%;
-color:#483c35;
-font-size: 24px;
-Height: 50%
-}
+        .review-body{
+            font-size: 16px;
+            text-align:left;
+            box-sizing:border-box;
+            margin-top:10px;
+            margin-left:20px;
+            color: #483c35;
+            }
