@@ -1,126 +1,170 @@
 body,html{font-size: 18px}
 
-    #top {
-        background-color: #b5c9d2;
-        background-size:cover; height:15%;
-        width:100%; padding-top:20px;
-        padding-bottom: 20px;
-        padding-left:35px;
-        box-sizing:border-box;
-        text-align:left;
-        font-size:5vw; margin:0px;
-        position:set; color:#483c35;
-        }
-    
-    #top a {
-        font-size:4vw;
-        float: right;
-        padding-top: 8px;
-        padding-right: 30px;
-        }
+/* heeader */
+	#top {
+		background-color: #b5c9d2;
+		background-size:cover; height:15%;
+		width:100%;
+		padding:35px;
+		box-sizing:border-box;
+		text-align:center;
+		font-size:40px; margin:0px;
+		position:set;
+		color:#483c35;
+		}
 
-        div.gallery {
-          background-color: #fff
-        }
+/* footer */
+		#bottom {
+			background-color: #b5c9d2;
+			background-size:cover; height:15%;
+			width:100%;
+			padding:35px;
+			padding-top: 20px;
+			box-sizing:border-box;
+			text-align:center;
+			font-size:40px; margin:0px;
+			position:set;
+			color:#483c35;
+			}
 
-        div.gallery:hover {
-        }
+/* gallery */
+		div.gallery {
+		  background-color: #fff
+		}
 
-        div.gallery img {
-          width: 100%;
-            overflow: hidden;
-            object-fit: contain;
-            align: top;
-        }
+		div.gallery:hover {
+		}
 
-        * {
-          box-sizing: border-box;
-        }
+		div.gallery img {
+		  width: 100%;
+			overflow: hidden;
+			object-fit: contain;
+			align: top;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
 
-        .responsive {
-          padding: 0 6px;
-          float: left;
-          width: 24.99999%;
-        }
+		* {
+		  box-sizing: border-box;
+		}
 
-        @media only screen and (max-width: 700px) {
-          .responsive {
-            width: 49.99999%;
-            margin: 6px 0;
-          }
-        }
+		.responsive {
+		  padding: 0 6px;
+		  float: left;
+		  width: 24.99999%;
+		}
 
-        @media only screen and (max-width: 500px) {
-          .responsive {
-            width: 100%;
-          }
-        }
+		@media only screen and (max-width: 700px) {
+		  .responsive {
+		    width: 49.99999%;
+		    margin: 6px 0;
+		  }
+		}
 
-        .clearfix:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
+		@media only screen and (max-width: 500px) {
+		  .responsive {
+		    width: 100%;
+		  }
+		}
 
-        * {
-          box-sizing: border-box;
-        }
+		.clearfix:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
 
-        a{
-            text-decoration: none;
-            color: #ED7117;
-        }
-        a:hover{
-            text-decoration: none;
-            
-        }
-        
-        /* Create two equal columns that floats next to each other */
-        .column {
-          float: left;
-          width: 50%;
-          padding: 10px;
-          height: 300px; / Should be removed. Only for demonstration /
-        }
+		* {
+		  box-sizing: border-box;
+		}
 
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
+/* columns */
+		.column {
+		  float: left;
+		  width: 50%;
+		  padding: 10px;
+		}
 
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {
-          .column {
-            width: 100%;
-          }
-        }
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
 
+		@media screen and (max-width: 500px) {
+		  .column {
+		    width: 100%;
+		  }
+		}
 
-        .text-title{
-            font-size: 24px;
-            text-align:center;
-            box-sizing:border-box;
-            margin-top:10px;
-            color: #483c35;
-            font-weight: bold;
-            }
+/* map */
+		.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
-        .review-name{
-            font-size: 20px;
-            text-align:left;
-            box-sizing:border-box;
-            margin-top:20px;
-            margin-left:10px;
-            color: #483c35;
-            }
+/* title for locations and reviews */
+		.text-title{
+			font-size: 24px;
+			text-align:center;
+			box-sizing:border-box;
+			margin-bottom:10px;
+			color: #483c35;
+			font-weight: bold;
+			/* background-color:rgba(181,201,210,.5); */
+			}
 
-        .review-body{
-            font-size: 16px;
-            text-align:left;
-            box-sizing:border-box;
-            margin-top:10px;
-            margin-left:20px;
-            color: #483c35;
-            }
+/* name of the reviewers */
+		.review-name{
+			font-size: 20px;
+			text-align:left;
+			box-sizing:border-box;
+			margin-top:20px;
+			margin-left:10px;
+			color: #483c35;
+			}
+
+/* reviews left */
+		.review-body{
+			font-size: 16px;
+			text-align:left;
+			box-sizing:border-box;
+			margin-top:10px;
+			margin-bottom:10px;
+			margin-left:20px;
+			color: #483c35;
+			}
+
+/* title  */
+			.ss-text{
+				font-size: 40px;
+				text-align:center;
+				color:#483c35;
+			}
+
+/* contact info */
+			.contact-info{
+				font-size: 20px;
+				text-align:right;
+				color:#483c35;
+				margin-left:0px;
+			}
+
+/* link formatting */
+		a {
+			text-decoration:none;
+			color: #ED7117;
+			padding: 10px;
+			font-size: 30px;
+			}
+		a:hover{
+			text-decoration: underline;
+			}
