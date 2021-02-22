@@ -140,7 +140,7 @@ body,html{font-size: 18px}
 
 /* title for locations and reviews */
 		.text-title{
-			font-size: 24px;
+			font-size: 28px;
 			text-align:center;
 			box-sizing:border-box;
 			margin-bottom:10px;
@@ -151,7 +151,7 @@ body,html{font-size: 18px}
 
 /* name of the reviewers */
 		.review-name{
-			font-size: 20px;
+			font-size: 24px;
 			text-align:left;
 			box-sizing:border-box;
 			margin-top:20px;
@@ -161,7 +161,7 @@ body,html{font-size: 18px}
 
 /* reviews left */
 		.review-body{
-			font-size: 16px;
+			font-size: 20px;
 			text-align:left;
 			box-sizing:border-box;
 			margin-top:10px;
@@ -172,7 +172,7 @@ body,html{font-size: 18px}
 
 /* contact info */
 			.contact-info{
-				font-size: 20px;
+				font-size: 24px;
 				text-align:right;
 				color:#483c35;
 				margin-left:0px;
@@ -181,7 +181,7 @@ body,html{font-size: 18px}
 
 /* hours info */
 			.hours{
-				font-size: 20px;
+				font-size: 24px;
 				text-align:center;
 				box-sizing:border-box;
 				margin-top:10px;
@@ -191,7 +191,7 @@ body,html{font-size: 18px}
 
 /* menu title */
 			.menu-title{
-				font-size: 20px;
+				font-size: 24px;
 				text-align:left;
 				box-sizing:border-box;
 				margin-top:20px;
@@ -200,7 +200,7 @@ body,html{font-size: 18px}
 
 /* menu items */
 			.menu-items{
-				font-size: 16px;
+				font-size: 20px;
 				text-align:left;
 				box-sizing:border-box;
 				margin-top:10px;
@@ -210,7 +210,7 @@ body,html{font-size: 18px}
 
 /* price */
 			.menu-price{
-				font-size: 16px;
+				font-size: 20px;
 				float: right;
 				color: #483c35;
 				/* text-align:right; */
@@ -219,7 +219,7 @@ body,html{font-size: 18px}
 
 /* contact title */
 			.contact-category{
-				font-size: 20px;
+				font-size: 24px;
 				text-align:center;
 				box-sizing:border-box;
 				margin-top:30px;
@@ -229,7 +229,7 @@ body,html{font-size: 18px}
 
 /* contact info */
 			.contact-body{
-				font-size: 16px;
+				font-size: 20px;
 				text-align:center;
 				box-sizing:border-box;
 				margin-top:10px;
