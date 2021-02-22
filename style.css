@@ -62,17 +62,17 @@ body,html{font-size: 18px}
 
 /* gallery */
 		div.gallery {
-		  background-color: #fff
+		  background-color: rgba(225,225,225,.4);
 		}
 
 		div.gallery:hover {
 		}
 
 		div.gallery img {
-		  width: 100%;
+		  width: 80%;
 			overflow: hidden;
 			object-fit: contain;
-			align: top;
+			float: center;
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
@@ -270,6 +270,13 @@ body,html{font-size: 18px}
 		margin-left:20px;
 		color: #483c35;
 		}
+
+	.photo-column {
+		  float: left;
+			width: 100%;
+		  padding: 0px;
+		}
+
 
 
 
