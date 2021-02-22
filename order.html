@@ -5,6 +5,54 @@
         <title>S&S Eatery</title>
         <link rel='stylesheet' type="text/css" href="style.css" />
         <style type="text/css">
+        body {
+          background-image: url('BackgroundImage.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100%;
+          }
+        input {
+          font-size: 18px;
+          text-align:left;
+          box-sizing:border-box;
+          margin-top:10px;
+          margin-bottom:10px;
+          margin-left:20px;
+          color: rgba(86, 74, 67, 0.8);
+          border: none;
+          }
+
+        label {
+          font-size: 24px;
+          text-align:left;
+          box-sizing:border-box;
+          margin-top:10px;
+          margin-bottom:10px;
+          margin-left:20px;
+          color: rgba(86, 74, 67, 0.8);
+          border: none;
+          }
+
+        select {
+          font-size: 18px;
+          text-align:left;
+          box-sizing:border-box;
+          margin-top:10px;
+          margin-bottom:10px;
+          margin-left:20px;
+          color: rgba(86, 74, 67, 0.8);
+          border: none;
+          }
+
+          ::placeholder {
+            font-size: 18px;
+            text-align:left;
+            box-sizing:border-box;
+            margin-top:10px;
+            margin-bottom:10px;
+            margin-left:20px;
+            color: rgba(86, 74, 67, 0.5);
+            }
 
         </style>
     </head>
@@ -14,7 +62,7 @@
 <!-- header section -->
         <div id='top'>
 					<div class='ss-text' >
-							<a id="title" href="index.html" style="text-decoration: none;">S&S Eatery</a>
+							S&S Eatery
 					</div>
 						<a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
@@ -34,6 +82,7 @@
 <hr hr size="6px" width="90%" color=#ED7117>
 
       <div id='about-us' >
+        <div class="order-form" >
               <form action="#">
                   <!-- Information -->
                   <strong>Information:</strong><br/>
@@ -48,8 +97,8 @@
                       <option value="pickup">Pickup</option>
                       <option value="delivery">Delivery</option>
                   </select><br/>
-                  <label for="adress">Adress:</label>
-                  <input type="text" id="adress" placeholder="Adress" required>
+                  <label for="address">Address:</label>
+                  <input type="text" id="address" placeholder="Address" required>
                   <br><br>
                   <!-- Drinks -->
                   <strong>Drinks:</strong><br/>
@@ -123,7 +172,7 @@
                   <input type="number" id="breakfast6" value="0">
                   <br/>
                   <br/>
-                  
+
                   <!-- Lunch -->
                   <strong>Lunch:</strong><br/>
                   <label for="lunch1">Brussel Sprout Salad:</label>
@@ -167,8 +216,11 @@
                   <input type="number" id="lunch8" value="0">
                   <br/>
                   <br/>
-                  <input type="submit" value="Order">
+                  <!-- <div class="form-submit-button" > -->
+                  <input type="submit" value="Order" id="form-submit-button">
+                <!-- </div> -->
              </form>
+           </div>
       </div>
 
 <!-- line break -->
