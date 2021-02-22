@@ -44,6 +44,22 @@ body,html{font-size: 18px}
 				background-color: rgba(201, 186, 177, .8);
 				}
 
+
+
+			#form-submit-button {
+				color:#ED7117;
+				border: none;
+				background:#fff;
+				font-size: 24px;
+				}
+
+			#form-submit-button:hover {
+				color:#fff;
+				border: none;
+				background:#ED7117;
+				font-size: 24px;
+				}
+
 /* gallery */
 		div.gallery {
 		  background-color: #fff
@@ -243,6 +259,18 @@ body,html{font-size: 18px}
 				text-align: center;
 				color: #483c35;
 			}
+
+
+	.order-form{
+		font-size: 24px;
+		text-align:left;
+		box-sizing:border-box;
+		margin-top:10px;
+		margin-bottom:10px;
+		margin-left:20px;
+		color: #483c35;
+		}
+
 
 
 
