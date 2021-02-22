@@ -34,14 +34,14 @@ body,html{font-size: 18px}
 				margin: auto;
   			width: 30%;
   			padding: 10px;
-				background-color: rgba(201, 186, 177, .2);
+				background-color: rgba(201, 186, 177, .8);
 				}
 
 			#about-us {
 				margin: auto;
 				width: 50%;
 				padding: 10px;
-				background-color: rgba(201, 186, 177, .2);
+				background-color: rgba(201, 186, 177, .8);
 				}
 
 /* gallery */
