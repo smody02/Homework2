@@ -62,7 +62,7 @@ body,html{font-size: 18px}
 
 /* gallery */
 		div.gallery {
-		  background-color: rgba(225,225,225,.4);
+		  background-color: rgba(225,225,225,0);
 		}
 
 		div.gallery:hover {
