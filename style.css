@@ -271,9 +271,10 @@ body,html{font-size: 18px}
 		color: #483c35;
 		}
 
-	.photo-column {
-		  padding: 0px;
-			display: inline-block;
+		.photo-column {
+		  padding: 5px;
+			margin-top: 5px;
+			display: inline;
 		}
 
 
