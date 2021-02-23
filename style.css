@@ -272,9 +272,8 @@ body,html{font-size: 18px}
 		}
 
 	.photo-column {
-		  float: left;
-			width: 100%;
 		  padding: 0px;
+			display: inline-block;
 		}
 
 
